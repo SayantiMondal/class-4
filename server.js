@@ -2,7 +2,7 @@
 const server=require("express")
 const app=server()
 app.get("/home",(req,res)=>{
-    res.send("this is home page")
+    res.send("this is my page")
 })
 
 app.get("/about",(req,res)=>{
